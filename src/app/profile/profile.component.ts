@@ -16,6 +16,18 @@ users:User[];
   constructor(private httpservice:HttpServiceService) { }
 
   ngOnInit(): void {
+    //add getprofile method for it to get loade when the app loads
+    this.getProfile()
+  }
+
+// method that gets datafrom the service
+  getProfile(){
+
+    this.httpservice.getUser().then((data)=>{
+      console.log(data);
+      
+    })
+
   }
 
 }

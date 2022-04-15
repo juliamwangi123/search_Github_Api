@@ -9,13 +9,15 @@ import { HttpClient } from  '@angular/common/http';
 export class HttpServiceService {
 
 username= "juliamwangi123";
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient) {    console.log("service is working");
+}
 
 
-  //get user profile
+  // get user profile
   getUser(){
+    
     const promise = new Promise((reslove, reject)=>{
-      reslove(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}`))
+      reslove(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}`).toPromise())
     })
     return promise
   }
