@@ -44,13 +44,17 @@
     bottom: 5%;
 }
 
+
 .editbtn{
     margin-top: 35px;
     font-size: 16px;
-    background-color: lightgrey;
+    color: #24292f;
+    background-color:#e8e9e9;
     text-align: center;
-    padding: 5px;
+    padding: 5px 16px;
     font-weight: 400;
+    border: 1px solid silver;
     border-radius: 5px;
+    cursor: pointer;
 
 }
