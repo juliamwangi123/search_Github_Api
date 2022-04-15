@@ -16,10 +16,18 @@ username= "juliamwangi123";
   // get user profile
   getUser(){
     
-    const promise = new Promise((reslove, reject)=>{
-      reslove(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}`).toPromise())
+    const promise = new Promise((resolve, reject)=>{
+      resolve(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}`).toPromise())
     })
     return promise
+  }
+
+  //get user repos
+  getRepos(){
+    const promise = new Promise((resolve, reject)=>{
+      resolve(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}/repos/repos`).toPromise())
+
+    })
   }
 
 
