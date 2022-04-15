@@ -109,7 +109,7 @@
 }
 .top {
     height: 100px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     
 }
@@ -117,5 +117,5 @@
     font-size: larger;
     position: relative;
     color: silver;
-    bottom: -100%;
+    bottom: -50%;
 }
