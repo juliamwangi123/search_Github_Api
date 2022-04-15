@@ -8,8 +8,17 @@ import { HttpClient } from  '@angular/common/http';
 })
 export class HttpServiceService {
 
-
+username= "juliamwangi123";
   constructor(private http:HttpClient) { }
 
-  
+
+  //get user profile
+  getUser(){
+    const promise = new Promise((reslove, reject)=>{
+      reslove(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}`))
+    })
+    return promise
+  }
+
+
 }
