@@ -9,7 +9,7 @@ import{Repo} from '../repo'
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-users:User[];
+users:any=""
 
 
 //inject hhtpserive
@@ -23,10 +23,11 @@ users:User[];
 // method that gets datafrom the service
   getProfile(){
 
-    this.httpservice.getUser().then((data)=>{
+    this.httpservice.getUser().then((data:any)=>{
       console.log(data);
+      this.users =data}
       
-    })
+    )
 
   }
 

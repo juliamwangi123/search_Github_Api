@@ -1,5 +1,12 @@
-<div class="profile">
+<div class="profile container" *ngIf="users">
+ <div class="row mt-5">
+    <div class="col-3 profPic" >
+        <img src={{users.avatar_url}} alt="" class="rounded-circle z-depth-2 pic" >
+    </div>
+    <div class="col-3">col-4</div>
+    <div class="col-6">col-8</div>
 
+ </div>
    
 
 </div>
