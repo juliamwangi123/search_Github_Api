@@ -95,4 +95,14 @@
 
 .location{
     font-size: 14px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.location i{
+    font-size: larger;
+    margin-right: 5px;
+    color: gray;
+}
+.location p{
+    margin-left: 4px;
 }
