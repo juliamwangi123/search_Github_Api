@@ -23,7 +23,7 @@
 
 
 .usersName{
-    margin-left: 20px;
+    margin-left: 9px;
     position: relative;
 
 }
@@ -47,14 +47,15 @@
 
 .editbtn{
     margin-top: 35px;
-    font-size: 16px;
+    margin-left: 5px;
+    font-size: 14px;
     color: #24292f;
     background-color:#e8e9e9;
     text-align: center;
     padding: 5px 16px;
     font-weight: 400;
     border: 1px solid silver;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 
 }
