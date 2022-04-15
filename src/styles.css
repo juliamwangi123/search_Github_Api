@@ -69,7 +69,7 @@
 }
 
 .people:hover{
-    color: blue;
+    color: #2FA4FF;
     cursor: pointer;
 }
 
@@ -78,7 +78,7 @@
     
 }
 .people span:hover{
-    color: blue;
+    color: #2FA4FF;
 
 
 }
@@ -91,7 +91,7 @@
     font-size: larger;
 }
 .people i:hover{
-    color: blue;
+    color: #2FA4FF;
 }
 
 .location{
@@ -144,6 +144,12 @@
     display: inline;
     border-radius: 50%;
     background-color: lightgray;
-    /* font-size: 13px; */
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.repos{
+    border: 1px solid red;
+    margin-top: 50px;
     margin-left: 10px;
 }
