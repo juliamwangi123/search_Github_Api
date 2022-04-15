@@ -87,6 +87,7 @@
 }
 .people i{
     color: gray;
+    font-size: larger;
 }
 .people i:hover{
     color: blue;
