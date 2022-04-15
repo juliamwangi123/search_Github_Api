@@ -6,34 +6,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .profPic{
-    margin-left: 0;
+    margin-left: 20px;
+    border:1px solid red;
+    position: relative;
+    
 }
 .pic{
     height: 300px;
     width: 300px;
     object-fit: cover;
-    position: relative;
-    right:10%;
+    /* position: relative;
+    right:10%; */
     border: 1px solid silver;
 }
-.usersName{
-    line-height: 1;
-}
 
-/* .usersName h1{
-    font-size: 32px;
-    font-weight: 600;
-} */
+
+.usersName{
+    margin-left: 20px;
+}
 
 .nick {
     font-size: 20px;
     font-weight: 300;
     color: grey;
-    line-height: 24px;
+    position: absolute;
+    bottom: -1%;
+    
+    /* line-height: 14px; */
 }
 
 .fullName{
     font-size: 24px;
-    line-height: 1.25;
+    position: absolute;
+    bottom: 6%;
 }
