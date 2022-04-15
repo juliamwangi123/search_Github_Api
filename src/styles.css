@@ -119,3 +119,24 @@
     color: silver;
     bottom: -50%;
 }
+
+.heading{
+    display: flex;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+    /* left: 30%; */
+}
+
+.heading span{
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.heading span i{
+    font-size: medium;
+    color: grey;
+    position: relative;
+    right: 10%;
+}
