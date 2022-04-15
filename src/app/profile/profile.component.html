@@ -1,13 +1,20 @@
 <div class="profile container-fluid" *ngIf="users">
  <div class="row mt-5">
     <div class="col-3 profPic" >
+        <!-- profile-pc -->
         <img src={{users.avatar_url}} alt="" class="rounded-circle z-depth-2 pic" >
+
+        <!-- username -->
         
         <h1 class="usersName">
             <span class="fullName">{{users.name}}</span> <br>
             <span class="nick">{{users.login}}</span>
 
         </h1>
+
+        <!-- edit button -->
+            <p class="editbtn">Edit profile</p>
+
     </div>
     <div class="col-3">col-4</div>
     <div class="col-5">col-8</div>

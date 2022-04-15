@@ -10,7 +10,6 @@
 .profPic{
     margin-left: 20px;
     border:1px solid red;
-    position: relative;
     
 }
 .pic{
@@ -25,6 +24,8 @@
 
 .usersName{
     margin-left: 20px;
+    position: relative;
+
 }
 
 .nick {
@@ -32,7 +33,7 @@
     font-weight: 300;
     color: grey;
     position: absolute;
-    bottom: -1%;
+    bottom: -45%;
     
     /* line-height: 14px; */
 }
@@ -40,5 +41,16 @@
 .fullName{
     font-size: 24px;
     position: absolute;
-    bottom: 6%;
+    bottom: 5%;
+}
+
+.editbtn{
+    margin-top: 35px;
+    font-size: 16px;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    border-radius: 5px;
+
 }
