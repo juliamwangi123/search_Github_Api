@@ -9,8 +9,11 @@ import{Repo} from '../repo'
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+users:User[];
 
-  constructor() { }
+
+//inject hhtpserive
+  constructor(private httpservice:HttpServiceService) { }
 
   ngOnInit(): void {
   }
