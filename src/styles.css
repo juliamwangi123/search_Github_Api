@@ -140,3 +140,10 @@
     position: relative;
     right: 10%;
 }
+.p-repos{
+    display: inline;
+    border-radius: 50%;
+    background-color: lightgray;
+    /* font-size: 13px; */
+    margin-left: 10px;
+}
