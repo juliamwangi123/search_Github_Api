@@ -92,3 +92,7 @@
 .people i:hover{
     color: blue;
 }
+
+.location{
+    font-size: 14px;
+}
