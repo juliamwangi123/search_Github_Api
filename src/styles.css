@@ -9,7 +9,6 @@
 
 .profPic{
     margin-left: 20px;
-    border:1px solid red;
     
 }
 .pic{
@@ -19,6 +18,8 @@
     /* position: relative;
     right:10%; */
     border: 1px solid silver;
+    position: relative;
+    top: -3%;
 }
 
 
@@ -105,4 +106,16 @@
 }
 .location p{
     margin-left: 4px;
+}
+.top {
+    height: 100px;
+    border: 2px solid red;
+    width: 100%;
+    
+}
+.top hr{
+    font-size: larger;
+    position: relative;
+    color: silver;
+    bottom: -100%;
 }
