@@ -59,3 +59,35 @@
     cursor: pointer;
 
 }
+.people{
+    font-size: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.people:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.people span{
+    color:gray;
+    
+}
+.people span:hover{
+    color: blue;
+
+
+}
+.people span:nth-child(2){
+    margin-right: 3px;
+    
+}
+.people i{
+    color: gray;
+}
+.people i:hover{
+    color: blue;
+}
