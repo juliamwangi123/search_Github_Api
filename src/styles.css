@@ -157,7 +157,24 @@
 }
 
 h2{
-    font-weight: 400 !important;
-    font-size: 16px;
+    font-weight: 300 !important;
+    font-size: 18px;
     font-family: sans-serif;
+}
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div p{
+    font-size: 14px;
+    color: rgb(107, 106, 106);
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.col-5{
+    border: 1px solid black;
 }

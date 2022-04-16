@@ -8,11 +8,34 @@ import{HttpServiceService} from '../http-service.service'
 })
 export class ReposComponent implements OnInit {
 
-  repos:any[]
+  repos:any =""
+   i:number =0;
+   
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private httpservice:HttpServiceService) { 
+   
   }
 
+  ngOnInit(): void {
+    this.getUserRepo()
+  }
+
+
+  //get repos from the api response
+
+  getUserRepo(){
+    this.httpservice.getRepos().then((repo)=>{
+      console.log(repo);
+      
+      
+      this.repos =repo
+      
+
+    })
+  }
+
+// loop 
+
+
 }
+
