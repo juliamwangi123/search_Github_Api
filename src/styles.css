@@ -136,20 +136,25 @@
     font-weight: 400;
 
 }
+/* heading icons */
 .heading span i{
     font-size: medium;
     color: grey;
     position: relative;
     right: 10%;
 }
+
+/* number of public repos */
 .p-repos{
     display: inline;
     border-radius: 50%;
     background-color: lightgray;
     font-size: 13px;
     margin-left: 5px;
+    color: black;
+    font-weight: 200;
 }
-
+/* display of popular repos */
 .repos{
     border: 1px solid red;
     margin-top: 50px;
@@ -177,4 +182,10 @@ h2{
 }
 .col-5{
     border: 1px solid black;
+}
+
+.col-5 a{
+    color: #218bff;
+    font-weight: 600;
+    text-decoration: none;
 }

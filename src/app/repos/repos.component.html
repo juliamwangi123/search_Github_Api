@@ -1,14 +1,16 @@
 
 <div class="container">
     <div class="row display">
-        <div class="col-5"  *ngFor="let repo of repos">
+        <div  *ngIf="repos">
+            <div class="col-5">
+            <a href="">
+                <span> {{repos[0].name}} </span>
+            </a>
+            </div>
+            <p>{{repos[0].name}}</p>
+            <p>{{repos[0].name}}</p>
             
-                <a>
-                
-                    
-                        <span>{{repo.name}}</span>
-
-                    </a>
+            
                 
                
 
