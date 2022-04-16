@@ -16,7 +16,7 @@
     
         <div class="heading">
             <span><i class="bi bi-book"></i>Overview</span>
-            <span><i class="bi bi-journal"></i>Repositories  <p class="p-repos badge">{{users.public_repos}}</p></span>
+            <span (click) =" navigateRepos()" (click) ="hide()" ><i class="bi bi-journal" ></i>Repositories  <p class="p-repos badge" >{{users.public_repos}}</p></span>
             <span><i class="bi bi-columns"></i>Projects</span>
             <span><i class="bi bi-box"></i>Packages</span>
             <span><i class="bi bi-star"></i>Stars</span>
@@ -62,8 +62,7 @@
         <p>Customize your pins</p>
        </div>
 
-        <app-repos>
-            <p>hi</p>
+        <app-repos *ngIf="showRepos">
         </app-repos>
 
      </div> 

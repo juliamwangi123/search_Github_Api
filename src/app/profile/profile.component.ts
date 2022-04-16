@@ -1,19 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import{HttpServiceService} from '../http-service.service'
+import { ActivatedRoute ,Router} from '@angular/router'
+
 import{User} from '../user';
 import{Repo} from '../repo'
 
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  styleUrls: ['./profile.component.css'],
 })
 export class ProfileComponent implements OnInit {
-users:any=""
+users:any="";
+showRepos= true;
 
 
 //inject hhtpserive
-  constructor(private httpservice:HttpServiceService) { }
+  constructor(private httpservice:HttpServiceService,
+    private router:Router) { }
 
   ngOnInit(): void {
     //add getprofile method for it to get loade when the app loads
@@ -29,6 +33,19 @@ users:any=""
       
     )
 
+
   }
+
+  //navigate to repo page
+  navigateRepos(){
+    alert("jules");
+    
+    this.router.navigate(['/allRepos'])
+  }
+ 
+  hide(){
+    this.showRepos = false;
+  }
+  
 
 }
