@@ -251,3 +251,27 @@ h2{
     font-size: xx-large;
     
 }
+
+.col-12 a{
+    color: #218bff;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-12 small{
+    border: 1px solid silver;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 5px 10px;
+    color: black;
+    font-weight: 100;   
+    position: relative;
+    right: 2%;
+    
+
+}

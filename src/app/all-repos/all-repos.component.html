@@ -1,3 +1,19 @@
-<div *ngFor="let repo of repos">
-    <li>{{repo.name}}</li>
+
+
+<div class="container">
+    <div class="row ">
+        
+            <div class="col-12" *ngFor="let repo of repos">
+            <a href="{{repo.html_url}}" target="_blank">
+                <span> {{repo.name}} </span>
+                <small class="label label-default"><span >{{repo.visibility}}</span></small> 
+
+            </a>
+
+           <p class="description">{{repo.description}}</p>
+            
+
+            </div>
+            </div>
 </div>
+

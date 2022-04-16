@@ -1,4 +1,8 @@
-li{
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+.col-12{
+    /* border-top: 1px solid silver; */
+    border-bottom: 1px solid silver;
+    list-style-type: none;
+    height: 120px;
+    margin-top: 10px;
+
 }
