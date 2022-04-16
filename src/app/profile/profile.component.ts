@@ -38,13 +38,19 @@ showRepos= true;
 
   //navigate to repo page
   navigateRepos(){
-    alert("jules");
     
     this.router.navigate(['/allRepos'])
+  }
+  navigateRepos2(){
+    this.router.navigate(['/profile'])
   }
  
   hide(){
     this.showRepos = false;
+  }
+
+  show(){
+    this.showRepos =true;
   }
   
 
