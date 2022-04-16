@@ -70,7 +70,7 @@
 }
 
 .people:hover{
-    color: #2FA4FF;
+    color: #218bff;
     cursor: pointer;
 }
 
@@ -79,7 +79,7 @@
     
 }
 .people span:hover{
-    color: #2FA4FF;
+    color: #218bff;
 
 
 }
@@ -92,7 +92,7 @@
     font-size: larger;
 }
 .people i:hover{
-    color: #2FA4FF;
+    color: #218bff;
 }
 
 .location{
