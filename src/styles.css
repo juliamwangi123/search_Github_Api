@@ -181,11 +181,35 @@ h2{
     /* justify-content: space-around; */
 }
 .col-5{
-    border: 1px solid black;
+    border: 1px solid silver;
+    height: 120px
+    
 }
 
 .col-5 a{
     color: #218bff;
     font-weight: 600;
     text-decoration: none;
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.col-5  small{
+    border: 1px solid silver;
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 3px;
+    position: relative;
+    left: 45%;
+    width: 30px;
+    top: 10%;
+
+}
+
+.description{
+    font-size: small;
+    position: relative;
+    top: 15%;
+    left: 5%;
 }
