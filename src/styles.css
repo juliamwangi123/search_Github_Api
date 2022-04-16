@@ -156,7 +156,6 @@
 }
 /* display of popular repos */
 .repos{
-    border: 1px solid red;
     margin-top: 50px;
     margin-left: 10px;
 }
@@ -178,7 +177,6 @@ h2{
 .display{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
     height: 80vh;
     justify-content: space-between;
     /* justify-content: space-around; */
@@ -186,24 +184,32 @@ h2{
 .col-5{
     border: 1px solid silver;
     /* height: 120px; */
-    height: 30%;
+    height: 25%;
     border-radius: 12px;
-    width: 48%;
+    width: 49%;
     
     
     
 }
 .col-5:nth-child(3){
     position: relative;
-    top: 0git%;
+    top:-5%;
 }
 .col-5:nth-child(4){
     position: relative;
-    top: 0%;
+    top:-5%;
+
 }
 .col-5:nth-child(5){
     position: relative;
-    top: 0%;
+    top:-10%;
+
+    
+}
+.col-5:nth-child(6){
+    position: relative;
+    top:-10%;
+
 }
 
 .col-5 a{
@@ -212,18 +218,21 @@ h2{
     text-decoration: none;
     position: relative;
     top: 10%;
-    left: 5%;
+    left: 2%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .col-5 small{
     border: 1px solid silver;
     border-radius: 15px;
-    font-size: 13px;
-    padding: 3px;
+    font-size: 11px;
+    padding: 5px 10px;
+    color: black;
+    font-weight: 100;   
     position: relative;
-    left: 50%;
-    width: 30px;
-    top: 10%;
+    right: 2%;
+    
 
 }
 
@@ -231,5 +240,5 @@ h2{
     font-size: small;
     position: relative;
     top: 15%;
-    left: 5%;
+    left: 0%;
 }
