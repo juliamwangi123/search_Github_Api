@@ -242,3 +242,10 @@ h2{
     top: 15%;
     left: 0%;
 }
+
+ form .bi-github i{
+    font-size: 93px;
+}
+.logo{
+    font-size: xx-large;
+}
