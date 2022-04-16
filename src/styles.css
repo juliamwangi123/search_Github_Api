@@ -134,6 +134,7 @@
     margin-left: 40px;
     font-size: 14px;
     font-weight: 400;
+    padding: 10px;
 
 }
 /* heading icons */
@@ -284,4 +285,9 @@ h2{
 }
 .overview{
     cursor: pointer;
+}
+.heading span:hover{
+    /* padding: 10px; */
+    border-bottom: 1px solid #fd8c73;
+    font-weight: 600;
 }
