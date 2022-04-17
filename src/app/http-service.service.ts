@@ -17,7 +17,7 @@ username= "juliamwangi123";
   getUser():any{
     
     const promise = new Promise((resolve, reject)=>{
-      resolve(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_id${environment.clientSecret}`).toPromise())
+      resolve(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_secret${environment.clientSecret}`).toPromise())
     })
     return promise
   }
@@ -31,7 +31,7 @@ username= "juliamwangi123";
     return promise
   }
 
- //update user
+//  update user
  upadateprofile(username:string){
    this.username =username
 
