@@ -18,7 +18,6 @@ export class AllReposComponent implements OnInit {
 
   getAllRepos(){
     this.httpservice.getRepos().then((data)=>{
-      console.log('heyyyy');
       
       this.repos=data
 

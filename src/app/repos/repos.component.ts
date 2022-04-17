@@ -9,15 +9,17 @@ import{HttpServiceService} from '../http-service.service'
 export class ReposComponent implements OnInit {
 
   repos:any =""
-   i:number =0;
    
 
   constructor(private httpservice:HttpServiceService) { 
+    console.log("hi");
+
    
   }
 
   ngOnInit(): void {
     this.getUserRepo()
+    
   }
 
 
@@ -25,6 +27,7 @@ export class ReposComponent implements OnInit {
 
   getUserRepo(){
     this.httpservice.getRepos().then((repo)=>{
+      
       console.log(repo);
       
       

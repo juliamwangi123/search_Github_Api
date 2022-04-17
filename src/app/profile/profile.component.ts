@@ -13,6 +13,7 @@ import{Repo} from '../repo'
 export class ProfileComponent implements OnInit {
 users:any="";
 showRepos= true;
+username:string;
 
 
 //inject hhtpserive
@@ -21,7 +22,8 @@ showRepos= true;
 
   ngOnInit(): void {
     //add getprofile method for it to get loade when the app loads
-    this.getProfile()
+    this.getProfile();
+    this.findUser()
   }
 
 // method that gets datafrom the service
@@ -53,5 +55,14 @@ showRepos= true;
     this.showRepos =true;
   }
   
+
+  //find user
+
+  findUser(){
+    this.httpservice.upadateprofile(this.username);
+        this.getProfile()
+
+
+  }
 
 }
