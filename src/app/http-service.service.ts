@@ -31,9 +31,5 @@ username= "juliamwangi123";
     return promise
   }
 
-//  update user
- upadateprofile(username:string){
-   this.username =username
 
- }
 }
