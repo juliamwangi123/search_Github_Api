@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from  '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 import{HttpServiceService} from './http-service.service'
@@ -21,7 +22,9 @@ import { AllReposComponent } from './all-repos/all-repos.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+
   ],
   providers: [HttpServiceService],
   bootstrap: [AppComponent]
