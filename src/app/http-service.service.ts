@@ -17,19 +17,23 @@ username= "juliamwangi123";
   getUser():any{
     
     const promise = new Promise((resolve, reject)=>{
-      resolve(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_secret${environment.clientSecret}`).toPromise())
+      // resolve(this.http.get(`https://api.github.com/users/${this.username}?client_id${environment.clientID}&client_secret${environment.clientSecret}`).toPromise())
+      resolve(this.http.get(`https://api.github.com/users/${this.username}`).toPromise())
+
     })
     return promise
   }
 
   //get user repos
-  getRepos():any{
+  getRepos(){
     const promise = new Promise((resolve, reject)=>{
       resolve(this.http.get(`https://api.github.com/users/${this.username}/repos`).toPromise())
 
     })
     return promise
   }
-
+  // upadateprofile(username){
+  //   this.username =username
+  // }
 
 }

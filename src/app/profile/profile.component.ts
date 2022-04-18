@@ -13,7 +13,7 @@ import{Repo} from '../repo'
 export class ProfileComponent implements OnInit {
 users:any="";
 showRepos= true;
-
+username:string;
 
 //inject hhtpserive
   constructor(private httpservice:HttpServiceService,

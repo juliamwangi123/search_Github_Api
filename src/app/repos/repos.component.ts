@@ -9,8 +9,8 @@ import{HttpServiceService} from '../http-service.service'
 export class ReposComponent implements OnInit {
 
   repos:any =""
-   
-
+   usename1:string
+  //  username= "juliamwangi123";
   constructor(private httpservice:HttpServiceService) { 
     console.log("hi");
 
@@ -19,6 +19,7 @@ export class ReposComponent implements OnInit {
 
   ngOnInit(): void {
     this.getUserRepo()
+    // this.allRepos()
     
   }
 
@@ -38,7 +39,10 @@ export class ReposComponent implements OnInit {
   }
 
 // loop 
-
+//  allRepos(){
+//    this.httpservice.upadateprofile(this.usename1)
+//    this.getUserRepo()
+//  }
 
 }
 
