@@ -32,8 +32,8 @@ username= "juliamwangi123";
     })
     return promise
   }
-  // upadateprofile(username){
-  //   this.username =username
-  // }
+  upadateprofile(username){
+    this.username =username
+  }
 
 }

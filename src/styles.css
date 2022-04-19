@@ -251,7 +251,9 @@ h2{
     font-size: 93px;
 }
 .logo{
-    font-size: xx-large;
+    font-size: 20px;
+
+    
     
 }
 
@@ -290,4 +292,29 @@ h2{
     /* padding: 10px; */
     border-bottom: 1px solid #fd8c73;
     font-weight: 600;
+}
+.col-12{
+    /* border-top: 1px solid silver; */
+    border-bottom: 1px solid silver;
+    list-style-type: none;
+    height: 120px;
+    margin-top: 10px;
+
+}
+
+.col-12 .time{
+    position: relative;
+    left: -1%;
+    top: 10%;
+    background-color: lightgray
+}
+
+input{
+    position: relative;
+    left: 10%;
+    height: 30px;
+    top: 14%;
+}
+.nav{
+    height: 50px;
 }

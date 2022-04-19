@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import{HttpServiceService} from '../http-service.service'
 
 @Component({
@@ -7,18 +7,18 @@ import{HttpServiceService} from '../http-service.service'
   styleUrls: ['./repos.component.css']
 })
 export class ReposComponent implements OnInit {
-
-  repos:any =""
-   usename1:string
+@Input() parentData:any
+  // repos:any =""
+  //  usename1:string
   //  username= "juliamwangi123";
-  constructor(private httpservice:HttpServiceService) { 
-    console.log("hi");
+  // constructor(private httpservice:HttpServiceService) { 
+  //   console.log("hi");
 
    
-  }
+  // }
 
   ngOnInit(): void {
-    this.getUserRepo()
+    // this.getUserRepo()
     // this.allRepos()
     
   }
@@ -26,17 +26,17 @@ export class ReposComponent implements OnInit {
 
   //get repos from the api response
 
-  getUserRepo(){
-    this.httpservice.getRepos().then((repo)=>{
+  // getUserRepo(){
+  //   this.httpservice.getRepos().then((repo)=>{
       
-      console.log(repo);
+  //     console.log(repo);
       
       
-      this.repos =repo
+  //     this.repos =repo
       
 
-    })
-  }
+  //   })
+  // }
 
 // loop 
 //  allRepos(){

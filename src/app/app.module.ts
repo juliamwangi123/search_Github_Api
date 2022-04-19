@@ -10,14 +10,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ReposComponent } from './repos/repos.component';
-import { AllReposComponent } from './all-repos/all-repos.component';
+import { DateCountPipe } from './date-count.pipe';
+// import { AllReposComponent } from './all-repos/all-repos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     ReposComponent,
-    AllReposComponent
+    DateCountPipe,
+    // AllReposComponent
   ],
   imports: [
     BrowserModule,

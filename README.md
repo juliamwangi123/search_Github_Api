@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
+
+## Installation.
+1. Fork the repository from my git hub.
+2. Clone this repository to a location in your file system.
+3. Open terminal command line then navigate to the root folder of the application.
+4. Run `ng serve` for a dev server and navigate to the local host.
+5. Clickon the live link
+
+### Behavior Driven Development
+
+1. Create a quote
+2. Add the quote
+3. View  all the quotes reated
+4. Like  quote
+5. Dislike quote
+6. Delete quote
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
