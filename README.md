@@ -12,12 +12,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Behavior Driven Development
 
-1. Create a quote
-2. Add the quote
-3. View  all the quotes reated
-4. Like  quote
-5. Dislike quote
-6. Delete quote
+1. Search for  github users using their username
+2. click on on the repos link to view projects on github
+
+
 
 ## Development server
 
